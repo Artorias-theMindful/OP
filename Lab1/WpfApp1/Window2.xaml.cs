@@ -31,5 +31,10 @@ namespace WpfApp1
             Hide();
             mw.Show();
         }
+
+        private void ComboBox_SelectionChanged()
+        {
+
+        }
     }
 }

@@ -39,7 +39,7 @@
             <ListBoxItem Content="X"/>
             <ListBoxItem Content="O"/>
         </ComboBox>
-        <ComboBox HorizontalAlignment="Left" Margin="41,204,0,0" VerticalAlignment="Top" Width="85" Height="61">
+        <ComboBox HorizontalAlignment="Left" Margin="41,204,0,0" VerticalAlignment="Top" Width="85" Height="61" SelectionChanged="ComboBox_SelectionChanged">
             <ListBoxItem/>
             <ListBoxItem Content="X"/>
             <ListBoxItem Content="O"/>
@@ -49,7 +49,7 @@
             <ListBoxItem Content="X"/>
             <ListBoxItem Content="O"/>
         </ComboBox>
-        <ComboBox HorizontalAlignment="Left" Margin="220,204,0,0" VerticalAlignment="Top" Width="86" Height="61">
+        <ComboBox HorizontalAlignment="Left" Margin="220,204,0,0" VerticalAlignment="Top" Width="86" Height="61" SelectionChanged="ComboBox_SelectionChanged">
             <ListBoxItem/>
             <ListBoxItem Content="X"/>
             <ListBoxItem Content="O"/>
