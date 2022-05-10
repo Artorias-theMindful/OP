@@ -1,0 +1,18 @@
+﻿<Window x:Class="Lab4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Subjects" Content="Предмети" HorizontalAlignment="Left" VerticalAlignment="Top" Width="229" Height="59" Margin="10,80,0,0" Click="Subjects_Click"/>
+        <Label Content="База даних абітури" HorizontalAlignment="Left" VerticalAlignment="Top" Height="51" Width="241" Margin="10,10,0,0" FontSize="24"/>
+        <Button x:Name="Marks" Content="Оцінки за екзамени" HorizontalAlignment="Left" VerticalAlignment="Top" Width="229" Height="59" Margin="10,144,0,0" Click="Marks_Click"/>
+        <Button x:Name="Students" Content="Абітура по групах" HorizontalAlignment="Left" VerticalAlignment="Top" Width="229" Height="59" Margin="10,208,0,0" Click="Students_Click"/>
+        <Button x:Name="Groups" Content="Групи по факультетах" HorizontalAlignment="Left" VerticalAlignment="Top" Width="229" Height="59" Margin="10,272,0,0" Click="Groups_Click"/>
+        <Button x:Name="Consultations" Content="Консультації" HorizontalAlignment="Left" VerticalAlignment="Top" Width="229" Height="59" Margin="10,336,0,0" Click="Consultations_Click"/>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Height="385" VerticalAlignment="Top" Width="540" Margin="244,10,0,0"/>
+    </Grid>
+</Window>
