@@ -1,0 +1,31 @@
+﻿<Window x:Class="Lab4.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab4"
+        mc:Ignorable="d"
+        Title="Додати студента" Height="784.054" Width="337.279">
+    <Grid>
+        <Label x:Name="label2" Content="Фамілія" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" Width="321" FontSize="18" Margin="3,77,0,0"/>
+        <TextBox x:Name="Tb2" HorizontalAlignment="Left" Height="35" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" Margin="13,117,0,0" FontSize="18"/>
+        <Label x:Name="label3" Content="Ім'я" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" Width="321" FontSize="18" Margin="10,157,0,0"/>
+        <TextBox x:Name="Tb3" HorizontalAlignment="Left" Height="35" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" Margin="12,197,0,0" FontSize="18"/>
+        <Label x:Name="label4" Content="По-батькові" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" Width="321" FontSize="18" Margin="10,237,0,0"/>
+        <TextBox x:Name="Tb4" HorizontalAlignment="Left" Height="35" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" Margin="10,277,0,0" FontSize="18"/>
+        <Label x:Name="label5" Content="Паспортні дані" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" Width="321" FontSize="18" Margin="3,317,0,0"/>
+        <TextBox x:Name="Tb5" HorizontalAlignment="Left" Height="35" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" Margin="13,352,0,0" FontSize="18"/>
+        <Label x:Name="label6" Content="Медаль" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" Width="321" FontSize="18" Margin="3,392,0,0"/>
+        <TextBox x:Name="Tb6" HorizontalAlignment="Left" Height="35" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" Margin="12,432,0,0" FontSize="18"/>
+        <Label x:Name="label7" Content="ID Групи" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" Width="321" FontSize="18" Margin="10,472,0,0"/>
+        <TextBox x:Name="Tb7" HorizontalAlignment="Left" Height="35" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" Margin="12,512,0,0" FontSize="18"/>
+        <Label x:Name="label8" Content="Який навчальний заклад закінчив" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" Width="321" FontSize="18" Margin="3,547,0,0"/>
+        <TextBox x:Name="Tb8" HorizontalAlignment="Left" Height="35" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" Margin="13,587,0,0" FontSize="18"/>
+        <Label x:Name="label9" Content="Коли закінчив" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" Width="321" FontSize="18" Margin="10,627,0,0"/>
+        <TextBox x:Name="Tb9" HorizontalAlignment="Left" Height="35" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" Margin="13,662,0,0" FontSize="18"/>
+        <Button x:Name="Button" Content="Додати" HorizontalAlignment="Left" VerticalAlignment="Top" Width="184" Margin="69,702,0,0" Height="47" Click="Button_Click"/>
+        <Label x:Name="label1" Content="Екзаменаційний лист" HorizontalAlignment="Left" VerticalAlignment="Top" Height="34" Width="321" FontSize="18"/>
+        <TextBox x:Name="Tb1" HorizontalAlignment="Left" Height="33" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" Margin="13,39,0,0" FontSize="18"/>
+
+    </Grid>
+</Window>

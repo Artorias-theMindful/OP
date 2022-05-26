@@ -1,0 +1,57 @@
+﻿<Window x:Class="Lab4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="1002.8">
+    <Grid>
+        <Button x:Name="Subjects" Content="Предмети" HorizontalAlignment="Left" VerticalAlignment="Top" Width="229" Height="59" Margin="10,80,0,0" Click="Subjects_Click"/>
+        <Label Content="База даних абітури" HorizontalAlignment="Left" VerticalAlignment="Top" Height="51" Width="241" Margin="10,10,0,0" FontSize="24"/>
+        <Button x:Name="Marks" Content="Оцінки за екзамени" HorizontalAlignment="Left" VerticalAlignment="Top" Width="229" Height="59" Margin="10,144,0,0" Click="Marks_Click"/>
+        <Button x:Name="Students" Content="Абітура по групах" HorizontalAlignment="Left" VerticalAlignment="Top" Width="229" Height="59" Margin="10,208,0,0" Click="Students_Click"/>
+        <Button x:Name="Groups" Content="Групи по факультетах" HorizontalAlignment="Left" VerticalAlignment="Top" Width="229" Height="59" Margin="10,272,0,0" Click="Groups_Click"/>
+        <Button x:Name="Consultations" Content="Консультації" HorizontalAlignment="Left" VerticalAlignment="Top" Width="229" Height="59" Margin="10,336,0,0" Click="Consultations_Click"/>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Height="400" VerticalAlignment="Top" Width="540" Margin="244,10,0,0"/>
+        <Label Content="Додати" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="789,10,0,0" Height="38" Width="150" FontSize="24"/>
+        <ComboBox x:Name="AddCombobox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="198" Margin="789,53,0,0" Height="22">
+            <ListBoxItem Content="Абітуріента" FontSize="18"/>
+            <ListBoxItem Content="Кафедру" FontSize="18"/>
+            <ListBoxItem Content="Групу" FontSize="18"/>
+            <ListBoxItem Content="Факультет" FontSize="18"/>
+            <ListBoxItem Content="Поток" FontSize="18"/>
+            <ListBoxItem Content="Оцінка" FontSize="18"/>
+            <ListBoxItem Content="Консультацію" FontSize="18"/>
+            <ListBoxItem Content="Екзамен" FontSize="18"/>
+            <ListBoxItem Content="Предмет" FontSize="18"/>
+        </ComboBox>
+        <Button x:Name="Add" Content="Додати" HorizontalAlignment="Left" VerticalAlignment="Top" Width="198" Margin="789,80,0,0" Height="43" Click="Add_Click"/>
+        <Label Content="Видалити" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="789,289,0,0" Height="42" Width="198" FontSize="24"/>
+        <ComboBox x:Name="DeleteCombobox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="198" Margin="789,336,0,0" Height="22">
+            <ListBoxItem Content="Абітурієнта" FontSize="18"/>
+            <ListBoxItem Content="Оцінку" FontSize="18"/>
+            <ListBoxItem Content="Групу" FontSize="18"/>
+            <ListBoxItem Content="Поток" FontSize="18"/>
+            <ListBoxItem Content="Кафедру" FontSize="18"/>
+            <ListBoxItem Content="Факультет" FontSize="18"/>
+            <ListBoxItem Content="Екзамен" FontSize="18"/>
+            <ListBoxItem Content="Консультацію" FontSize="18"/>
+            <ListBoxItem Content="Предмет" FontSize="18"/>
+        </ComboBox>
+        <Button x:Name="Delete" Content="Видалити" Margin="789,363,9.8,10" Click="Delete_Click"/>
+        <Label Content="Оновити" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="789,140,0,0" Height="42" Width="198" FontSize="24"/>
+        <ComboBox x:Name="UpdateCombobox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="198" Margin="789,187,0,0" Height="22">
+            <ListBoxItem Content="Абітурієнта" FontSize="18"/>
+            <ListBoxItem Content="Оцінку" FontSize="18"/>
+            <ListBoxItem Content="Групу" FontSize="18"/>
+            <ListBoxItem Content="Поток" FontSize="18"/>
+            <ListBoxItem Content="Кафедру" FontSize="18"/>
+            <ListBoxItem Content="Факультет" FontSize="18"/>
+            <ListBoxItem Content="Екзамен" FontSize="18"/>
+            <ListBoxItem Content="Консультацію" FontSize="18"/>
+            <ListBoxItem Content="Предмет" FontSize="18"/>
+        </ComboBox>
+        <Button x:Name="Update" Content="Оновити" Margin="789,214,9.8,159" Click="Update_Click"/>
+    </Grid>
+</Window>
