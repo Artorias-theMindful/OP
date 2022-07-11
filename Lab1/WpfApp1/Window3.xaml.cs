@@ -127,6 +127,7 @@ namespace WpfApp1
                 if (prev.Text[prev.Text.Length - 1] == '/' || prev.Text[prev.Text.Length - 1] == '-' || prev.Text[prev.Text.Length - 1] == '+' || prev.Text[prev.Text.Length - 1] == 'X')
                 {
                     calculate();
+                    int a = 1;
                 }
             prev.Text = TB.Text + " /";
             TB.Text = "";
